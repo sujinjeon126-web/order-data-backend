@@ -1,6 +1,4 @@
-fastapi
-uvicorn[standard]
 pandas
 openpyxl
-python-multipart
-sqlalchemy
+supabase
+PyJWT
