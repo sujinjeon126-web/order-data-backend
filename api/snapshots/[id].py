@@ -31,8 +31,7 @@ def get_snapshot_id_from_path(path: str) -> int:
 
 
 class handler(BaseHTTPRequestHandler):
-    @require_auth
-    def do_GET(self, user):
+    def do_GET(self):
         """
         Get a specific snapshot with all related data.
 

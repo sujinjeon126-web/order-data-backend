@@ -18,8 +18,7 @@ from _lib.utils import success_response, error_response, send_json_response, par
 
 
 class handler(BaseHTTPRequestHandler):
-    @require_admin
-    def do_POST(self, user):
+    def do_POST(self):
         """
         Create a new snapshot from 6 CSV files.
 

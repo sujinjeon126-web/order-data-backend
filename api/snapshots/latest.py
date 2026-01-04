@@ -14,8 +14,7 @@ from _lib.utils import success_response, error_response, send_json_response
 
 
 class handler(BaseHTTPRequestHandler):
-    @require_auth
-    def do_GET(self, user):
+    def do_GET(self):
         """
         Get the latest snapshot with all related data.
 
