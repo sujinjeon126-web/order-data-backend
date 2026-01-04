@@ -1,3 +1,5 @@
+fastapi
+python-multipart
 pandas
 openpyxl
 supabase
